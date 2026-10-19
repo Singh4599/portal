@@ -666,6 +666,13 @@ body {
   transform: translateY(-3px) scale(1.04);
 }
 
+/* Cards 8 & 9: clean transparent PNGs, slightly softer shadow */
+.theme-transport .card-illustration,
+.theme-waste .card-illustration {
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.07));
+  object-position: center bottom;
+}
+
 /* ==========================================================================
    4. PORTAL FOOTER
    ========================================================================== */
