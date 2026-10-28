@@ -639,39 +639,56 @@ body {
   background: linear-gradient(135deg, #B90012 0%, #85000C 100%);
 }
 
-/* ── NEW THEMES (Cards 10–13) ────────────────────────────────────────── */
+/* ── NEW THEMES (Cards 9–15) ────────────────────────────────────────── */
 
-/* Card 10: Training — Green */
-.theme-training .card-glow-bg { background: radial-gradient(ellipse at 75% 30%, rgba(74,222,128,0.18) 0%, transparent 70%); }
-.theme-training:hover { border-color: rgba(74,222,128,0.4); box-shadow: 0 20px 40px -8px rgba(26,107,58,0.25), 0 4px 12px rgba(0,0,0,0.12); }
-.cat-training { background: rgba(74,222,128,0.15); color: #166534; border: 1px solid rgba(74,222,128,0.3); }
-.ic-training { background: linear-gradient(135deg, #166534 0%, #1A6B3A 100%); }
-.ic-training svg { color: #fff; }
-.btn-training { background: linear-gradient(135deg, #1A6B3A 0%, #145730 100%); }
+/* Card 9: Training — Forest Green */
+.theme-training .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(220, 252, 231, 0.9) 0%, rgba(240, 253, 244, 0.45) 45%, transparent 75%); }
+.theme-training:hover { border-color: rgba(22, 101, 52, 0.3); }
+.cat-training { background: #E9FFF0; color: #166534; }
+.ic-training { background: #E9FFF0; color: #166534; }
+.btn-training { background: linear-gradient(135deg, #166534 0%, #14532D 100%); }
 
-/* Card 11: Complaint — Orange/Red */
-.theme-complaint .card-glow-bg { background: radial-gradient(ellipse at 75% 30%, rgba(251,146,60,0.18) 0%, transparent 70%); }
-.theme-complaint:hover { border-color: rgba(251,146,60,0.4); box-shadow: 0 20px 40px -8px rgba(194,65,12,0.25), 0 4px 12px rgba(0,0,0,0.12); }
-.cat-complaint { background: rgba(251,146,60,0.15); color: #9A3412; border: 1px solid rgba(251,146,60,0.3); }
-.ic-complaint { background: linear-gradient(135deg, #C2410C 0%, #9A3412 100%); }
-.ic-complaint svg { color: #fff; }
+/* Card 10: Complaint — Amber / Terracotta */
+.theme-complaint .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(255, 237, 213, 0.9) 0%, rgba(255, 247, 237, 0.45) 45%, transparent 75%); }
+.theme-complaint:hover { border-color: rgba(194, 65, 12, 0.3); }
+.cat-complaint { background: #FFF3EB; color: #C2410C; }
+.ic-complaint { background: #FFF3EB; color: #C2410C; }
 .btn-complaint { background: linear-gradient(135deg, #C2410C 0%, #9A3412 100%); }
 
-/* Card 12: Maintenance — Steel Blue */
-.theme-maintenance .card-glow-bg { background: radial-gradient(ellipse at 75% 30%, rgba(96,165,250,0.18) 0%, transparent 70%); }
-.theme-maintenance:hover { border-color: rgba(96,165,250,0.4); box-shadow: 0 20px 40px -8px rgba(29,78,216,0.25), 0 4px 12px rgba(0,0,0,0.12); }
-.cat-maintenance { background: rgba(96,165,250,0.15); color: #1E40AF; border: 1px solid rgba(96,165,250,0.3); }
-.ic-maintenance { background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%); }
-.ic-maintenance svg { color: #fff; }
+/* Card 11: Maintenance — Royal Blue */
+.theme-maintenance .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(219, 234, 254, 0.9) 0%, rgba(239, 246, 255, 0.45) 45%, transparent 75%); }
+.theme-maintenance:hover { border-color: rgba(29, 78, 216, 0.3); }
+.cat-maintenance { background: #EFF6FF; color: #1D4ED8; }
+.ic-maintenance { background: #EFF6FF; color: #1D4ED8; }
 .btn-maintenance { background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%); }
 
-/* Card 13: Traceability — Purple */
-.theme-traceability .card-glow-bg { background: radial-gradient(ellipse at 75% 30%, rgba(167,139,250,0.18) 0%, transparent 70%); }
-.theme-traceability:hover { border-color: rgba(167,139,250,0.4); box-shadow: 0 20px 40px -8px rgba(124,58,237,0.25), 0 4px 12px rgba(0,0,0,0.12); }
-.cat-traceability { background: rgba(167,139,250,0.15); color: #6D28D9; border: 1px solid rgba(167,139,250,0.3); }
-.ic-traceability { background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); }
-.ic-traceability svg { color: #fff; }
+/* Card 12: Traceability — Purple / Violet */
+.theme-traceability .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(237, 233, 254, 0.9) 0%, rgba(245, 243, 255, 0.45) 45%, transparent 75%); }
+.theme-traceability:hover { border-color: rgba(124, 58, 237, 0.3); }
+.cat-traceability { background: #F3EDFF; color: #7C3AED; }
+.ic-traceability { background: #F3EDFF; color: #7C3AED; }
 .btn-traceability { background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%); }
+
+/* Card 13: Rejection Register — Crimson Red */
+.theme-rejection .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(254, 226, 226, 0.9) 0%, rgba(255, 241, 242, 0.45) 45%, transparent 75%); }
+.theme-rejection:hover { border-color: rgba(190, 18, 60, 0.3); }
+.cat-rejection { background: #FFF1F3; color: #BE123C; }
+.ic-rejection { background: #FFF1F3; color: #BE123C; }
+.btn-rejection { background: linear-gradient(135deg, #BE123C 0%, #9F1239 100%); }
+
+/* Card 14: CAPA Register — Warm Gold / Amber */
+.theme-capa .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(254, 243, 199, 0.9) 0%, rgba(255, 248, 230, 0.45) 45%, transparent 75%); }
+.theme-capa:hover { border-color: rgba(217, 119, 6, 0.3); }
+.cat-capa { background: #FFFBEB; color: #D97706; }
+.ic-capa { background: #FFFBEB; color: #D97706; }
+.btn-capa { background: linear-gradient(135deg, #D97706 0%, #B45309 100%); }
+
+/* Card 15: Product Changeover — Cyan / Teal */
+.theme-changeover .card-glow-bg { background: radial-gradient(circle at 85% 25%, rgba(204, 251, 241, 0.9) 0%, rgba(240, 253, 250, 0.45) 45%, transparent 75%); }
+.theme-changeover:hover { border-color: rgba(13, 148, 136, 0.3); }
+.cat-changeover { background: #F0FDFA; color: #0D9488; }
+.ic-changeover { background: #F0FDFA; color: #0D9488; }
+.btn-changeover { background: linear-gradient(135deg, #0D9488 0%, #0F766E 100%); }
 
 /* Card Illustration (Transparent 3D Asset positioned on the right) */
 .card-illustration-wrap {
